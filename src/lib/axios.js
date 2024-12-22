@@ -1,8 +1,5 @@
 import axios from "axios"
 
-const apiUrl = import.meta.env.VITE_API_URL
-console.log('API URL:', apiUrl)  // Añadir esta línea para verificar la URL
-
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL // Define la URL base para todas las solicitudes de esta instancia
 })
